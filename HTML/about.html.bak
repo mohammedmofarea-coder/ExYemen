@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Yemen Page</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+
+<body>
+      <header class="header">
+    <div class="container">
+        <div class="logo">
+            <h1>Ex<span>Yemen</span> <i class="fa-solid fa-plane-departure"></i></h1>
+            <p>Discover yemen's beauty</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html" >Home</a></li>
+                <li><a href="about.html" class="active">About Yemen</a></li>
+                <li><a href="destinations.html" >Destinations</a></li>
+                <li><a href="contact.html" >Login</a></li>
+                <li><a href="login.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+    <div class="about-container">
+        <div class="about-header">
+            <h2>About Yemen</h2>
+            <span class="title-line"></span>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>Yemen, located at the southern end of the Arabian Peninsula, is a land of ancient history, stunning architecture, and diverse landscapes. From the unique biodiversity of Socotra Island to the ancient skyscrapers of Shibam, Yemen offers unforgettable experiences for every traveler.</p>
+                <p>With a history dating back over 3,000 years, Yemen is home to some of the oldest continuously inhabited cities in the world. Its rich cultural heritage is reflected in its architecture, cuisine, and traditional crafts.</p>
+                <a href="destinations.html" class="btn btn-learn">Learn More</a>
+            </div>
+
+            <div class="about-image">
+            
+            <img src="../images/FB_IMG_1767658982799.jpg" alt="Alqahira castle-Taiz">
+	       </div>
+        </div>
+    </div>
+</main>
+ <footer class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2026 ExYemen Tourism. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

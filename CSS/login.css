@@ -1,0 +1,107 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:  #f3f2ef;
+    padding: 20px;/*الابتعاد عن الحواف*/
+}
+.login-box{
+    margin: 60px 0;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 450px;/*التمدد في الجوال */
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 25px #aba696
+}
+.login-box h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+.login-box p{
+    color:#504e4e;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.input-box{
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-box i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:  #c7a17a;
+}
+.input-box input{
+    background-color: aqua;
+    width: 100%;
+    padding: 12px 12px 12px 45px;
+    border-radius: 7px;
+    background-color:transparent;
+    border: #cdcdcc solid 1px;
+    
+}
+input:focus{
+    outline: 2px solid #c7a17a;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 20px;
+   outline: none;
+   
+   
+
+}
+
+.options a{
+    text-decoration: none;
+    color: #d0a67d;
+    font-weight: 500;
+}
+.login-btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: #c7a17a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+
+}
+.login-btn:hover{
+    background-color: #504e4e;
+    transform: translateY(-2px);
+
+
+}
+.checkbox:focus{
+    outline: none;
+}
+
+.form-footer p{
+    margin-top: 25px;
+   font-size: 16px;
+   border-top: #d0a77d62 solid 1px;
+   padding-top: 20px;
+    
+}
+.form-footer a{
+    text-decoration: none;
+    color: #c7a17a;
+}
+.footer .container{
+    width: 100%;
+}
+.copyright{
+    width: 100%;
+}
